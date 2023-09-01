@@ -1,0 +1,14 @@
+def split(nums):
+    num_list = nums.split()
+    return num_list
+
+
+def average(num_list):
+    return average = sum(num_list) / len(num_list)
+
+
+
+if __name__ = "__main__":
+    nums = int(input())
+    print(split(nums))
+    print(average(split(nums)))
